@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plot</title>
+    <style>
+        a:hover, .back-button:hover {
+            background-color: #45a049;
+        }
+        .back-button {
+            position: fixed;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="/" class="back-button">Назад</a>
+    <h1>График</h1>
+    <img src="data:image/png;base64,{{ image_base64 }}" alt="Plot" width="1600" height="1200">
+</body>
+</html>
